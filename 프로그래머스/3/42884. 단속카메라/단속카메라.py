@@ -7,4 +7,5 @@ def solution(routes):
         if camera < routes[i][0]:
             camera = routes[i][1]
             answer += 1
+
     return answer
